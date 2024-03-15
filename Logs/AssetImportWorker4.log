@@ -1,0 +1,496 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.21f1 (bf09ca542b87) revision 12519882'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22631) 64bit Professional' Language: 'es' Physical Memory: 16109 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.21f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker4
+-projectPath
+C:/Users/Juan/Desktop/RPGame/RPGame
+-logFile
+Logs/AssetImportWorker4.log
+-srvPort
+52869
+Successfully changed project path to: C:/Users/Juan/Desktop/RPGame/RPGame
+C:/Users/Juan/Desktop/RPGame/RPGame
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [21132] Host "[IP] 192.168.1.31 [Port] 0 [Flags] 2 [Guid] 3867463494 [EditorId] 3867463494 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-4SUNC2I) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [21132] Host "[IP] 192.168.1.31 [Port] 0 [Flags] 2 [Guid] 3867463494 [EditorId] 3867463494 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-4SUNC2I) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 15 workers.
+Refreshing native plugins compatible for Editor in 6.75 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.21f1 (bf09ca542b87)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.21f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Juan/Desktop/RPGame/RPGame/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3050 Laptop GPU (ID=0x25a2)
+    Vendor:   NVIDIA
+    VRAM:     3977 MB
+    Driver:   31.0.15.3770
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.21f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.21f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.21f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56628
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.21f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.21f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.006854 seconds.
+- Loaded All Assemblies, in  0.431 seconds
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.210 seconds
+Domain Reload Profiling: 640ms
+	BeginReloadAssembly (162ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (32ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (55ms)
+	LoadAllAssembliesAndSetupDomain (172ms)
+		LoadAssemblies (162ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (168ms)
+			TypeCache.Refresh (167ms)
+				TypeCache.ScanAssembly (147ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (211ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (167ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (113ms)
+			ProcessInitializeOnLoadMethodAttributes (41ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.666 seconds
+Refreshing native plugins compatible for Editor in 2.16 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.460 seconds
+Domain Reload Profiling: 1124ms
+	BeginReloadAssembly (135ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (17ms)
+	RebuildCommonClasses (26ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (33ms)
+	LoadAllAssembliesAndSetupDomain (461ms)
+		LoadAssemblies (345ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (198ms)
+			TypeCache.Refresh (174ms)
+				TypeCache.ScanAssembly (159ms)
+			ScanForSourceGeneratedMonoScriptInfo (19ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (461ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (331ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (46ms)
+			ProcessInitializeOnLoadAttributes (252ms)
+			ProcessInitializeOnLoadMethodAttributes (19ms)
+			AfterProcessingInitializeOnLoad (7ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 3.04 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3288 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 45 unused Assets / (130.5 KB). Loaded Objects now: 3749.
+Memory consumption went from 131.1 MB to 130.9 MB.
+Total: 2.865900 ms (FindLiveObjects: 0.185700 ms CreateObjectMapping: 0.067200 ms MarkObjects: 2.490300 ms  DeleteObjects: 0.121500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 7081.777067 seconds.
+  path: Assets/Player ExplosiveLLC/RPG Character Animations/Animations/1Hand-Item/RPG-Character@Item-Attack-L1.FBX
+  artifactKey: Guid(a0530361df34bb24786b5416003db3f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player ExplosiveLLC/RPG Character Animations/Animations/1Hand-Item/RPG-Character@Item-Attack-L1.FBX using Guid(a0530361df34bb24786b5416003db3f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0991ede43a7f20154a4ca1ae141639a') in 0.039746 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 113
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Player ExplosiveLLC/RPG Character Animations/Animations/1Hand-Item/RPG-Character@Item-Attack-R3.FBX
+  artifactKey: Guid(6f836be9d2dd9c74c9a1aaa05601e5ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player ExplosiveLLC/RPG Character Animations/Animations/1Hand-Item/RPG-Character@Item-Attack-R3.FBX using Guid(6f836be9d2dd9c74c9a1aaa05601e5ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '960db583f0084da10c0f98a85c157e21') in 0.003546 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 113
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Player ExplosiveLLC/RPG Character Animations/Animations/1Hand-Item/RPG-Character@Item-Attack-L4.FBX
+  artifactKey: Guid(99751853fe77898438953ccdafe45781) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player ExplosiveLLC/RPG Character Animations/Animations/1Hand-Item/RPG-Character@Item-Attack-L4.FBX using Guid(99751853fe77898438953ccdafe45781) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02075f80764a64f9ecbb24d21644affa') in 0.004688 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 113
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Player ExplosiveLLC/RPG Character Animations/Animations/1Hand-Item/RPG-Character@Item-Attack-R4.FBX
+  artifactKey: Guid(0903e23b735c83b4790be560fad79154) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player ExplosiveLLC/RPG Character Animations/Animations/1Hand-Item/RPG-Character@Item-Attack-R4.FBX using Guid(0903e23b735c83b4790be560fad79154) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebc88c1d47c9325f2c2fe5ba7aeeba9c') in 0.004482 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 113
+========================================================================
+Received Import Request.
+  Time since last request: 2.199591 seconds.
+  path: Assets/Player ExplosiveLLC/RPG Character Animations/Animations/2Hand-Crossbow/RPG-Character@2Hand-Crossbow-Activate.FBX
+  artifactKey: Guid(c24070f16bb5a104096aa9673729e3ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player ExplosiveLLC/RPG Character Animations/Animations/2Hand-Crossbow/RPG-Character@2Hand-Crossbow-Activate.FBX using Guid(c24070f16bb5a104096aa9673729e3ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e26c48e417dcf037e8e2596c1654f15e') in 0.004977 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 113
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Player ExplosiveLLC/RPG Character Animations/Animations/2Hand-Crossbow/RPG-Character@2Hand-Crossbow-Boost1.FBX
+  artifactKey: Guid(911cadc1c4621494195cca74dfa70dd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player ExplosiveLLC/RPG Character Animations/Animations/2Hand-Crossbow/RPG-Character@2Hand-Crossbow-Boost1.FBX using Guid(911cadc1c4621494195cca74dfa70dd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ae249af1cf8770b05d4fe075a969f51') in 0.006309 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 113
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Player ExplosiveLLC/RPG Character Animations/Animations/2Hand-Crossbow/RPG-Character@2Hand-Crossbow-Attack-Kick-R1.FBX
+  artifactKey: Guid(b5d68bade2e6a534aa164149b86e754f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player ExplosiveLLC/RPG Character Animations/Animations/2Hand-Crossbow/RPG-Character@2Hand-Crossbow-Attack-Kick-R1.FBX using Guid(b5d68bade2e6a534aa164149b86e754f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac8b2b5f13b7912e9c3a0802c0a33f5d') in 0.004171 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 113
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Player ExplosiveLLC/RPG Character Animations/Animations/2Hand-Crossbow/RPG-Character@2Hand-Crossbow-Attack1.FBX
+  artifactKey: Guid(6572be1761d2cc342951ebf49aae8242) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player ExplosiveLLC/RPG Character Animations/Animations/2Hand-Crossbow/RPG-Character@2Hand-Crossbow-Attack1.FBX using Guid(6572be1761d2cc342951ebf49aae8242) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '929620a76b6ab239bf5f27688ebd47b6') in 0.004255 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 113
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Player ExplosiveLLC/RPG Character Animations/Animations/2Hand-Crossbow/RPG-Character@2Hand-Crossbow-Aiming-Fire.FBX
+  artifactKey: Guid(7f1c342df76f9104dbc50eb1d1ef070b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player ExplosiveLLC/RPG Character Animations/Animations/2Hand-Crossbow/RPG-Character@2Hand-Crossbow-Aiming-Fire.FBX using Guid(7f1c342df76f9104dbc50eb1d1ef070b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '335345c54bd1fcb9c1ab01a9aaf57703') in 0.006210 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 121
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Player ExplosiveLLC/RPG Character Animations/Animations/2Hand-Crossbow/RPG-Character@2Hand-Crossbow-Block-GetHit1.FBX
+  artifactKey: Guid(1487c91a7ecea8d47b3134a2b2d872f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player ExplosiveLLC/RPG Character Animations/Animations/2Hand-Crossbow/RPG-Character@2Hand-Crossbow-Block-GetHit1.FBX using Guid(1487c91a7ecea8d47b3134a2b2d872f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebc06beaba65a92292f91afc7e79f580') in 0.003790 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 113
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Player ExplosiveLLC/RPG Character Animations/Animations/2Hand-Crossbow/RPG-Character@2Hand-Crossbow-Crouch-Walk-Backward-Right.FBX
+  artifactKey: Guid(f9f58216b36556d48b7269f15fbc91af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player ExplosiveLLC/RPG Character Animations/Animations/2Hand-Crossbow/RPG-Character@2Hand-Crossbow-Crouch-Walk-Backward-Right.FBX using Guid(f9f58216b36556d48b7269f15fbc91af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4d1a36abc6dc98a884133a8af6ffedd') in 0.003449 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 113
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Player ExplosiveLLC/RPG Character Animations/Animations/2Hand-Crossbow/RPG-Character@2Hand-Crossbow-Attack3.FBX
+  artifactKey: Guid(d1db09b8a2fec0e479f2f89d10b0f8bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player ExplosiveLLC/RPG Character Animations/Animations/2Hand-Crossbow/RPG-Character@2Hand-Crossbow-Attack3.FBX using Guid(d1db09b8a2fec0e479f2f89d10b0f8bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2fd238a7828af9f76cd226aca5ee51e2') in 0.004513 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 113
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/Player ExplosiveLLC/RPG Character Animations/Animations/2Hand-Crossbow/RPG-Character@2Hand-Crossbow-Block.FBX
+  artifactKey: Guid(aace5f8140fd11041800b2d21f8e3810) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player ExplosiveLLC/RPG Character Animations/Animations/2Hand-Crossbow/RPG-Character@2Hand-Crossbow-Block.FBX using Guid(aace5f8140fd11041800b2d21f8e3810) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47e610ff2699edfb61b964141b79d451') in 0.004522 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 113
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Player ExplosiveLLC/RPG Character Animations/Animations/2Hand-Crossbow/RPG-Character@2Hand-Crossbow-Attack5.FBX
+  artifactKey: Guid(c73773f6e9e1582439f9a87840563e91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player ExplosiveLLC/RPG Character Animations/Animations/2Hand-Crossbow/RPG-Character@2Hand-Crossbow-Attack5.FBX using Guid(c73773f6e9e1582439f9a87840563e91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60d6e2e66e843686143c4cbf8a73d5e2') in 0.003398 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 113
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Player ExplosiveLLC/RPG Character Animations/Animations/2Hand-Crossbow/RPG-Character@2Hand-Crossbow-Attack-Kick-L1.FBX
+  artifactKey: Guid(787724094b088434d93719e6c8364c6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player ExplosiveLLC/RPG Character Animations/Animations/2Hand-Crossbow/RPG-Character@2Hand-Crossbow-Attack-Kick-L1.FBX using Guid(787724094b088434d93719e6c8364c6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c10655b39549a647552b743797d7a2de') in 0.003248 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 113
+========================================================================
+Received Import Request.
+  Time since last request: 1.761258 seconds.
+  path: Assets/Player ExplosiveLLC/RPG Character Animations/Animations/Armed/RPG-Character@Armed-Activate-Left.FBX
+  artifactKey: Guid(ef3b1eb17061a014d8bf8c166a7f668d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player ExplosiveLLC/RPG Character Animations/Animations/Armed/RPG-Character@Armed-Activate-Left.FBX using Guid(ef3b1eb17061a014d8bf8c166a7f668d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90e14f6d80c153a5b63d3964cc00d50b') in 0.004784 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 113
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Player ExplosiveLLC/RPG Character Animations/Animations/Armed/RPG-Character@Armed-Block-L-GetHit1.FBX
+  artifactKey: Guid(81fa92022b8d05640a321bf1d0dbb98a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player ExplosiveLLC/RPG Character Animations/Animations/Armed/RPG-Character@Armed-Block-L-GetHit1.FBX using Guid(81fa92022b8d05640a321bf1d0dbb98a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68a5fbb5c505ac4b1c7f6b52a6b55dec') in 0.006476 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 113
+========================================================================
+Received Import Request.
+  Time since last request: 0.000112 seconds.
+  path: Assets/Player ExplosiveLLC/RPG Character Animations/Animations/Armed/RPG-Character@Armed-Block-R-GetHit1.FBX
+  artifactKey: Guid(cf21abb895854d0409b150a10d16e871) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player ExplosiveLLC/RPG Character Animations/Animations/Armed/RPG-Character@Armed-Block-R-GetHit1.FBX using Guid(cf21abb895854d0409b150a10d16e871) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6df2be10ca4961a2a76382b5a06dfb05') in 0.008424 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 113
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Player ExplosiveLLC/RPG Character Animations/Animations/Armed/RPG-Character@Armed-Block-L.FBX
+  artifactKey: Guid(6346f3bb589f33b4ba07781426a437d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player ExplosiveLLC/RPG Character Animations/Animations/Armed/RPG-Character@Armed-Block-L.FBX using Guid(6346f3bb589f33b4ba07781426a437d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e88229dcae7978eeae50a55fdd9bd66') in 0.006454 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 113
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Player ExplosiveLLC/RPG Character Animations/Animations/Armed/RPG-Character@Armed-Block-R-GetHit2.FBX
+  artifactKey: Guid(c470b81cf2f09dc4d9f1d80c2b790cbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player ExplosiveLLC/RPG Character Animations/Animations/Armed/RPG-Character@Armed-Block-R-GetHit2.FBX using Guid(c470b81cf2f09dc4d9f1d80c2b790cbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5969b8cedf2f55a22b5635d63f9ea6c8') in 0.005509 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 113
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Player ExplosiveLLC/RPG Character Animations/Animations/Armed/RPG-Character@Armed-Attack-Kick-R2.FBX
+  artifactKey: Guid(cdf37f3d36b96104b9884988d1c552f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player ExplosiveLLC/RPG Character Animations/Animations/Armed/RPG-Character@Armed-Attack-Kick-R2.FBX using Guid(cdf37f3d36b96104b9884988d1c552f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fcc75a730d38ebf81eda50813bcb3762') in 0.003086 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 113
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Player ExplosiveLLC/RPG Character Animations/Animations/Armed/RPG-Character@Armed-Attack-Dual1.FBX
+  artifactKey: Guid(43b3bf1526e697f4f8b06e53457dfa2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player ExplosiveLLC/RPG Character Animations/Animations/Armed/RPG-Character@Armed-Attack-Dual1.FBX using Guid(43b3bf1526e697f4f8b06e53457dfa2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f0f2695837283d5ea423b0fcfb93e0a') in 0.003593 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 113
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Player ExplosiveLLC/RPG Character Animations/Animations/Armed/RPG-Character@Armed-Attack-Dual3.FBX
+  artifactKey: Guid(cb140d8df12930e40bbb2bd5b2a74557) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player ExplosiveLLC/RPG Character Animations/Animations/Armed/RPG-Character@Armed-Attack-Dual3.FBX using Guid(cb140d8df12930e40bbb2bd5b2a74557) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b12b685de38056c0f9f4ee6f13f1247b') in 0.002760 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 113
+========================================================================
+Received Import Request.
+  Time since last request: 4.339063 seconds.
+  path: Assets/Player ExplosiveLLC/RPG Character Animations/Animations/Armed-Shield/RPG-Character@Shield-Activate.fbx
+  artifactKey: Guid(ce0b7e8d809139946b3deddd91aa7434) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player ExplosiveLLC/RPG Character Animations/Animations/Armed-Shield/RPG-Character@Shield-Activate.fbx using Guid(ce0b7e8d809139946b3deddd91aa7434) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b082b0cf87d09bee871de291c898e1eb') in 0.007003 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 113
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Player ExplosiveLLC/RPG Character Animations/Animations/Armed-Shield/RPG-Character@Shield-Death1.FBX
+  artifactKey: Guid(560fff7a0d9f462448e4cb7656fc6829) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player ExplosiveLLC/RPG Character Animations/Animations/Armed-Shield/RPG-Character@Shield-Death1.FBX using Guid(560fff7a0d9f462448e4cb7656fc6829) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71c47a5ef8eb04ee35d2e157e17a9f5c') in 0.009656 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 113
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Player ExplosiveLLC/RPG Character Animations/Animations/Armed-Shield/RPG-Character@Shield-Knockback-Back2.FBX
+  artifactKey: Guid(c650ed8313f77d244b383bc8f03efbbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player ExplosiveLLC/RPG Character Animations/Animations/Armed-Shield/RPG-Character@Shield-Knockback-Back2.FBX using Guid(c650ed8313f77d244b383bc8f03efbbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c48a142aebe8a5f006e3adf5fcc3c2cb') in 0.008085 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 113
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Player ExplosiveLLC/RPG Character Animations/Animations/Armed-Shield/RPG-Character@Shield-Idle-Crouch.fbx
+  artifactKey: Guid(6b846a9594eb0c943b17b856fccd59bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player ExplosiveLLC/RPG Character Animations/Animations/Armed-Shield/RPG-Character@Shield-Idle-Crouch.fbx using Guid(6b846a9594eb0c943b17b856fccd59bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '543268964de45e645b4e0c689fcad2a5') in 0.006144 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 113
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Player ExplosiveLLC/RPG Character Animations/Animations/Armed-Shield/RPG-Character@Shield-Boost1.FBX
+  artifactKey: Guid(ff13048ceeaf4024c9242fe457430147) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player ExplosiveLLC/RPG Character Animations/Animations/Armed-Shield/RPG-Character@Shield-Boost1.FBX using Guid(ff13048ceeaf4024c9242fe457430147) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72ecfa1890b1370f92f78a0a25f4b04e') in 0.004576 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 113
+========================================================================
+Received Import Request.
+  Time since last request: 1.885149 seconds.
+  path: Assets/Player ExplosiveLLC/RPG Character Animations/Animations/Relax/RPG-Character@Relax-Activate.FBX
+  artifactKey: Guid(1d60d6c26af64b64981ff4235eeaa973) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player ExplosiveLLC/RPG Character Animations/Animations/Relax/RPG-Character@Relax-Activate.FBX using Guid(1d60d6c26af64b64981ff4235eeaa973) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '951110aaa4ad3704f66956c1320302d2') in 0.005110 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 113
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Player ExplosiveLLC/RPG Character Animations/Animations/Relax/RPG-Character@Relax-No.FBX
+  artifactKey: Guid(105c6ce049078f244beeaeb06ba354d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player ExplosiveLLC/RPG Character Animations/Animations/Relax/RPG-Character@Relax-No.FBX using Guid(105c6ce049078f244beeaeb06ba354d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df4d19defbbc9cf52420b30cc445db11') in 0.005978 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 113
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Player ExplosiveLLC/RPG Character Animations/Animations/Relax/RPG-Character@Relax-Idle-Drunk2.FBX
+  artifactKey: Guid(0e5804b4b4be4854b880a71befb0fccd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player ExplosiveLLC/RPG Character Animations/Animations/Relax/RPG-Character@Relax-Idle-Drunk2.FBX using Guid(0e5804b4b4be4854b880a71befb0fccd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62977a8f4c568741742a9b18f62e2667') in 0.011556 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 119
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Player ExplosiveLLC/RPG Character Animations/Animations/Relax/RPG-Character@Relax-Idle.FBX
+  artifactKey: Guid(393274f3704ac8a49adb190785ca48db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player ExplosiveLLC/RPG Character Animations/Animations/Relax/RPG-Character@Relax-Idle.FBX using Guid(393274f3704ac8a49adb190785ca48db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a49a7ca8feeaa4f88fcc1ea633b27e19') in 0.008583 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 113
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Player ExplosiveLLC/RPG Character Animations/Animations/Relax/RPG-Character@Relax-Pickup.FBX
+  artifactKey: Guid(83a290534acc18d41aec8c09a4083213) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player ExplosiveLLC/RPG Character Animations/Animations/Relax/RPG-Character@Relax-Pickup.FBX using Guid(83a290534acc18d41aec8c09a4083213) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e5060db4ee40f4d5aff2c3be23a7982') in 0.003649 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 113
+========================================================================
+Received Import Request.
+  Time since last request: 0.765427 seconds.
+  path: Assets/Player ExplosiveLLC/RPG Character Animations/Animations/Unarmed/RPG-Character@Unarmed-Activate.FBX
+  artifactKey: Guid(08061e875324be84496c2c8dd94801b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player ExplosiveLLC/RPG Character Animations/Animations/Unarmed/RPG-Character@Unarmed-Activate.FBX using Guid(08061e875324be84496c2c8dd94801b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f237066f5225729248935bfa3fdfffb') in 0.005391 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 113
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Player ExplosiveLLC/RPG Character Animations/Animations/Unarmed/RPG-Character@Unarmed-Attack-R3.FBX
+  artifactKey: Guid(3414c515c6a2f334da03b4ab3d547691) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player ExplosiveLLC/RPG Character Animations/Animations/Unarmed/RPG-Character@Unarmed-Attack-R3.FBX using Guid(3414c515c6a2f334da03b4ab3d547691) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9ba66796b845b132cf82a835a0fef58') in 0.009310 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 113
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Player ExplosiveLLC/RPG Character Animations/Animations/Unarmed/RPG-Character@Unarmed-Cast-Dual-AOE2.FBX
+  artifactKey: Guid(5866f8d9c371d37469335d7382ac354b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player ExplosiveLLC/RPG Character Animations/Animations/Unarmed/RPG-Character@Unarmed-Cast-Dual-AOE2.FBX using Guid(5866f8d9c371d37469335d7382ac354b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '311e1016cdc3663fe3e3f5ad8e19e222') in 0.005424 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 115
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/Player ExplosiveLLC/RPG Character Animations/Animations/Unarmed/RPG-Character@Unarmed-Attack-R1.FBX
+  artifactKey: Guid(ce17781955d25c647922801319f24e9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player ExplosiveLLC/RPG Character Animations/Animations/Unarmed/RPG-Character@Unarmed-Attack-R1.FBX using Guid(ce17781955d25c647922801319f24e9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5fd12cba59825643c7c20b3e533dbe67') in 0.004919 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 113
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Player ExplosiveLLC/RPG Character Animations/Animations/Unarmed/RPG-Character@Unarmed-Cast-Dual-Attack1.FBX
+  artifactKey: Guid(7f0b2182620a9bd4eb51de096c947c0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player ExplosiveLLC/RPG Character Animations/Animations/Unarmed/RPG-Character@Unarmed-Cast-Dual-Attack1.FBX using Guid(7f0b2182620a9bd4eb51de096c947c0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85261ae67fb2d67a322bf6c0386ee74f') in 0.005843 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 115
+========================================================================
+Received Import Request.
+  Time since last request: 386.803160 seconds.
+  path: Assets/Level/Prototyping_Pack_Free/Resources/Prefabs/New World.prefab
+  artifactKey: Guid(a76bc395c8c8e1043bc2566e216abd2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Level/Prototyping_Pack_Free/Resources/Prefabs/New World.prefab using Guid(a76bc395c8c8e1043bc2566e216abd2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d3077f6603fde315ded402d6f7bd630') in 0.114020 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1013
